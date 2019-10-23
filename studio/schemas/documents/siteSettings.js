@@ -26,11 +26,11 @@ export default {
       }
     },
     {
-      name: 'author',
+      name: 'company',
       type: 'reference',
-      description: 'Publish an author and set a reference to them here.',
-      title: 'Author',
-      to: [{type: 'author'}]
+      description: 'Publish a company and set a reference to them here.',
+      title: 'Company',
+      to: [{type: 'company'}]
     }
   ]
 }

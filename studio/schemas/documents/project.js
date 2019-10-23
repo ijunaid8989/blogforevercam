@@ -1,9 +1,9 @@
 import {format} from 'date-fns'
 
 export default {
-  name: 'post',
+  name: 'project',
   type: 'document',
-  title: 'Blog Post',
+  title: 'Project',
   fields: [
     {
       name: 'title',
@@ -40,12 +40,12 @@ export default {
         'This ends up on summary pages, on Google, when people share your post in social media.'
     },
     {
-      name: 'authors',
-      title: 'Authors',
+      name: 'company',
+      title: 'Company',
       type: 'array',
       of: [
         {
-          type: 'authorReference'
+          type: 'companyReference'
         }
       ]
     },
