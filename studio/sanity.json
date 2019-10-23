@@ -5,7 +5,7 @@
   },
   "api": {
     "projectId": "xviynfs2",
-    "dataset": "production"
+    "dataset": "projects"
   },
   "plugins": [
     "@sanity/base",
